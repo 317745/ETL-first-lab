@@ -1,0 +1,12 @@
+DROP DATABASE IF EXISTS Used_Cars;
+CREATE DATABASE IF NOT EXISTS Used_Cars;
+use Used_Cars;
+
+CREATE TABLE IF NOT EXISTS used_cars_table(
+	car_model VARCHAR(30),
+    year_of_manufacture DATE,
+    price INTEGER,
+    fuel VARCHAR(50)
+);
+
+select * from used_cars_table;
