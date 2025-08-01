@@ -1,5 +1,4 @@
-import datetime
-
+from datetime import datetime
 
 def log_progress(message, log_file='etl_log.txt'): 
     timestamp_format = '%Y-%m-%d %H:%M:%S' # Year-Month-Day Hour-Minute-Second 

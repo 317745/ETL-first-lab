@@ -7,23 +7,30 @@ from sqlalchemy import create_engine, text
 import warnings
 warnings.filterwarnings('ignore') 
 
-def extract_data(path):
+def extract(path):
     def extract_from_xml(path):
         dfs = []
         for i in range(1, 4):
-            dfs.append(pd.read_xml(f'etl-exercise/data/used_car_prices{i}.xml'))
+            file_path = f'{path}{i}.xml'
+            try:
+                df = pd.read_xml(file_path)
+                dfs.append(df)
+            except Exception as e:
+                print(f'{file_path}')
         return pd.concat(dfs)
 
     def extract_from_json(path):
         dfs = []
         for i in range(1, 4):
-            dfs.append(pd.read_json(f'etl-exercise/data/used_car_prices{i}.json', lines=True))
+            df = pd.read_json(f'{path}{i}.json', lines=True)
+            dfs.append(df)
         return pd.concat(dfs)
 
     def extract_from_csv(path):
         dfs = []
         for i in range(1, 4):
-            dfs.append(pd.read_csv(f'etl-exercise/data/used_car_prices{i}.csv'))
+            df = pd.read_csv(f'{path}{i}.csv')
+            dfs.append(df)
         return pd.concat(dfs)
 
     df_xml = extract_from_xml(path)
@@ -32,20 +39,15 @@ def extract_data(path):
 
     return [df_csv, df_json, df_xml]
 
-def transform_data(data): 
-    return pd.concat([data[0], data[1], data[2]])
+def transform(data): 
+    df = pd.concat([data[0], data[1], data[2]])
+    df['price'] = round(df['price'], 2)
+    return df
 
 def load_to_csv(df, csv_path):
     try:
         df.to_csv(csv_path)
         return 'ok'
-    except Exception as e:
-        return 'not ok'
-
-def load_to_database(df, sql_connection, table_name):
-    try:
-        df.to_sql(table_name, sql_connection, if_exists='replace', index=False)
-        return 'oki'
     except Exception as e:
         return e
 
@@ -57,18 +59,10 @@ def get_db_connection():
         return engine
     except Exception as e:
         return e
-
-def fetch_all_cars():
+    
+def load_to_db(df, sql_connection, table_name):
     try:
-        engine = get_db_connection()
-        with engine.connect() as conn:
-            result = conn.execute(text("SELECT * FROM used_cars_table")).fetchall()
-            return result
+        df.to_sql(table_name, sql_connection, if_exists='replace', index=False)
+        return 'ok'
     except Exception as e:
         return e
-
-data_extracted = extract_data('etl-exercise/data/used_car_prices')
-data_transformed = transform_data(data_extracted)
-csv_status = load_to_csv(data_transformed, 'etl-exercise/data/cars.csv')
-db_status = load_to_database(data_transformed, get_db_connection(), 'used_cars_table')
-print(fetch_all_cars())
