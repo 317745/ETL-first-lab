@@ -18,7 +18,8 @@ def main():
     log_progress("Extract phase Started") 
 
     # Extract
-    extracted_data = extract('/home/steven/Escritorio/ETL/etl-exercise/data/used_car_prices')
+    data = extract()
+    extracted_data = data.extract_all_data('/home/steven/Escritorio/ETL/etl-exercise/data/used_car_prices')
     log_progress("Data extraction complete.")
     
     # Log the beginning of the Transformation process 

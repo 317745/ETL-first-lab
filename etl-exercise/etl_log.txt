@@ -95,3 +95,343 @@
 2025-08-01 03:19:19,Data loading complete.
 2025-08-01 03:19:20,Data loaded to Database as table. Running the query
 2025-08-01 03:19:20,Post-2015 vehicles presented.
+2025-08-05 20:48:32,ETL Job Started
+2025-08-05 20:48:32,Extract phase Started
+2025-08-05 20:50:40,ETL Job Started
+2025-08-05 20:50:40,Extract phase Started
+2025-08-05 20:51:00,ETL Job Started
+2025-08-05 20:51:00,Extract phase Started
+2025-08-05 20:51:00,Data extraction complete.
+2025-08-05 20:51:00,Transform phase Started
+2025-08-05 20:51:00,Data transformation complete.
+2025-08-05 20:51:00,Data loading complete.
+2025-08-05 20:51:01,Data loaded to Database as table. Running the query
+2025-08-05 20:51:01,Post-2015 vehicles presented.
+2025-08-05 20:51:12,ETL Job Started
+2025-08-05 20:51:12,Extract phase Started
+2025-08-05 20:51:12,Data extraction complete.
+2025-08-05 20:51:12,Transform phase Started
+2025-08-05 20:51:12,Data transformation complete.
+2025-08-05 20:51:12,Data loading complete.
+2025-08-05 20:51:13,Data loaded to Database as table. Running the query
+2025-08-05 20:51:13,Post-2015 vehicles presented.
+2025-08-05 21:05:44,ETL Job Started
+2025-08-05 21:05:44,Extract phase Started
+2025-08-05 21:05:44,Data extraction complete.
+2025-08-05 21:05:44,Transform phase Started
+2025-08-05 21:07:00,ETL Job Started
+2025-08-05 21:07:00,Extract phase Started
+2025-08-05 21:07:00,Data extraction complete.
+2025-08-05 21:07:00,Transform phase Started
+2025-08-05 21:07:00,Data transformation complete.
+2025-08-05 21:07:00,Data loading complete.
+2025-08-05 21:07:01,Data loaded to Database as table. Running the query
+2025-08-05 21:07:01,Post-2015 vehicles presented.
+2025-08-05 21:08:01,ETL Job Started
+2025-08-05 21:08:01,Extract phase Started
+2025-08-05 21:08:02,Data extraction complete.
+2025-08-05 21:08:02,Transform phase Started
+2025-08-05 21:08:16,ETL Job Started
+2025-08-05 21:08:16,Extract phase Started
+2025-08-05 21:08:16,Data extraction complete.
+2025-08-05 21:08:16,Transform phase Started
+2025-08-05 21:08:16,Data transformation complete.
+2025-08-05 21:08:16,Data loading complete.
+2025-08-05 21:08:16,Data loaded to Database as table. Running the query
+2025-08-05 21:08:16,Post-2015 vehicles presented.
+2025-08-05 21:09:34,ETL Job Started
+2025-08-05 21:09:34,Extract phase Started
+2025-08-05 21:09:34,Data extraction complete.
+2025-08-05 21:09:34,Transform phase Started
+2025-08-05 21:09:34,Data transformation complete.
+2025-08-05 21:09:34,Data loading complete.
+2025-08-05 21:09:35,Data loaded to Database as table. Running the query
+2025-08-05 21:09:35,Post-2015 vehicles presented.
+2025-08-05 21:10:02,ETL Job Started
+2025-08-05 21:10:02,Extract phase Started
+2025-08-05 21:10:02,Data extraction complete.
+2025-08-05 21:10:02,Transform phase Started
+2025-08-05 21:10:02,Data transformation complete.
+2025-08-05 21:10:02,Data loading complete.
+2025-08-05 21:10:02,Data loaded to Database as table. Running the query
+2025-08-05 21:10:02,Post-2015 vehicles presented.
+2025-08-05 21:10:19,ETL Job Started
+2025-08-05 21:10:19,Extract phase Started
+2025-08-05 21:10:19,Data extraction complete.
+2025-08-05 21:10:19,Transform phase Started
+2025-08-05 21:10:19,Data transformation complete.
+2025-08-05 21:10:19,Data loading complete.
+2025-08-05 21:10:19,Data loaded to Database as table. Running the query
+2025-08-05 21:10:19,Post-2015 vehicles presented.
+2025-08-05 21:10:50,ETL Job Started
+2025-08-05 21:10:50,Extract phase Started
+2025-08-05 21:10:50,Data extraction complete.
+2025-08-05 21:10:50,Transform phase Started
+2025-08-05 21:10:50,Data transformation complete.
+2025-08-05 21:10:50,Data loading complete.
+2025-08-05 21:10:50,Data loaded to Database as table. Running the query
+2025-08-05 21:10:50,Post-2015 vehicles presented.
+2025-08-05 21:13:40,ETL Job Started
+2025-08-05 21:13:40,Extract phase Started
+2025-08-05 21:13:41,Data extraction complete.
+2025-08-05 21:13:41,Transform phase Started
+2025-08-05 21:15:37,ETL Job Started
+2025-08-05 21:15:37,Extract phase Started
+2025-08-05 21:15:37,Data extraction complete.
+2025-08-05 21:15:37,Transform phase Started
+2025-08-05 21:15:50,ETL Job Started
+2025-08-05 21:15:50,Extract phase Started
+2025-08-05 21:15:50,Data extraction complete.
+2025-08-05 21:15:50,Transform phase Started
+2025-08-05 21:16:21,ETL Job Started
+2025-08-05 21:16:21,Extract phase Started
+2025-08-05 21:16:21,Data extraction complete.
+2025-08-05 21:16:21,Transform phase Started
+2025-08-05 21:16:38,ETL Job Started
+2025-08-05 21:16:38,Extract phase Started
+2025-08-05 21:16:38,Data extraction complete.
+2025-08-05 21:16:38,Transform phase Started
+2025-08-05 21:17:20,ETL Job Started
+2025-08-05 21:17:20,Extract phase Started
+2025-08-05 21:17:20,Data extraction complete.
+2025-08-05 21:17:20,Transform phase Started
+2025-08-05 21:18:00,ETL Job Started
+2025-08-05 21:18:00,Extract phase Started
+2025-08-05 21:18:00,Data extraction complete.
+2025-08-05 21:18:00,Transform phase Started
+2025-08-05 21:18:39,ETL Job Started
+2025-08-05 21:18:39,Extract phase Started
+2025-08-05 21:18:39,Data extraction complete.
+2025-08-05 21:18:39,Transform phase Started
+2025-08-05 21:18:39,Data transformation complete.
+2025-08-05 21:18:39,Data loading complete.
+2025-08-05 21:18:39,Data loaded to Database as table. Running the query
+2025-08-05 21:18:39,Post-2015 vehicles presented.
+2025-08-05 21:19:15,ETL Job Started
+2025-08-05 21:19:15,Extract phase Started
+2025-08-05 21:19:15,Data extraction complete.
+2025-08-05 21:19:15,Transform phase Started
+2025-08-05 21:19:15,Data transformation complete.
+2025-08-05 21:19:15,Data loading complete.
+2025-08-05 21:19:15,Data loaded to Database as table. Running the query
+2025-08-05 21:19:15,Post-2015 vehicles presented.
+2025-08-05 21:19:31,ETL Job Started
+2025-08-05 21:19:31,Extract phase Started
+2025-08-05 21:19:31,Data extraction complete.
+2025-08-05 21:19:31,Transform phase Started
+2025-08-05 21:19:31,Data transformation complete.
+2025-08-05 21:19:31,Data loading complete.
+2025-08-05 21:19:31,Data loaded to Database as table. Running the query
+2025-08-05 21:19:31,Post-2015 vehicles presented.
+2025-08-05 21:20:19,ETL Job Started
+2025-08-05 21:20:19,Extract phase Started
+2025-08-05 21:20:19,Data extraction complete.
+2025-08-05 21:20:19,Transform phase Started
+2025-08-05 21:21:30,ETL Job Started
+2025-08-05 21:21:30,Extract phase Started
+2025-08-05 21:21:30,Data extraction complete.
+2025-08-05 21:21:30,Transform phase Started
+2025-08-05 21:22:10,ETL Job Started
+2025-08-05 21:22:10,Extract phase Started
+2025-08-05 21:22:10,Data extraction complete.
+2025-08-05 21:22:10,Transform phase Started
+2025-08-05 21:23:59,ETL Job Started
+2025-08-05 21:23:59,Extract phase Started
+2025-08-05 21:23:59,Data extraction complete.
+2025-08-05 21:23:59,Transform phase Started
+2025-08-05 21:28:57,ETL Job Started
+2025-08-05 21:28:57,Extract phase Started
+2025-08-05 21:28:57,Data extraction complete.
+2025-08-05 21:28:57,Transform phase Started
+2025-08-05 21:28:57,Data transformation complete.
+2025-08-05 21:28:57,Data loading complete.
+2025-08-05 21:28:57,Data loaded to Database as table. Running the query
+2025-08-05 21:28:57,Post-2015 vehicles presented.
+2025-08-05 21:29:52,ETL Job Started
+2025-08-05 21:29:52,Extract phase Started
+2025-08-05 21:29:52,Data extraction complete.
+2025-08-05 21:29:52,Transform phase Started
+2025-08-05 21:29:52,Data transformation complete.
+2025-08-05 21:29:52,Data loading complete.
+2025-08-05 21:29:52,Data loaded to Database as table. Running the query
+2025-08-05 21:29:52,Post-2015 vehicles presented.
+2025-08-05 21:32:44,ETL Job Started
+2025-08-05 21:32:44,Extract phase Started
+2025-08-05 21:33:07,ETL Job Started
+2025-08-05 21:33:07,Extract phase Started
+2025-08-05 21:33:07,Data extraction complete.
+2025-08-05 21:33:07,Transform phase Started
+2025-08-05 21:33:07,Data transformation complete.
+2025-08-05 21:33:07,Data loading complete.
+2025-08-05 21:33:07,Data loaded to Database as table. Running the query
+2025-08-05 21:33:07,Post-2015 vehicles presented.
+2025-08-05 21:33:39,ETL Job Started
+2025-08-05 21:33:39,Extract phase Started
+2025-08-05 21:33:39,Data extraction complete.
+2025-08-05 21:33:39,Transform phase Started
+2025-08-05 21:33:39,Data transformation complete.
+2025-08-05 21:33:39,Data loading complete.
+2025-08-05 21:33:39,Data loaded to Database as table. Running the query
+2025-08-05 21:33:39,Post-2015 vehicles presented.
+2025-08-05 21:34:12,ETL Job Started
+2025-08-05 21:34:12,Extract phase Started
+2025-08-05 21:34:12,Data extraction complete.
+2025-08-05 21:34:12,Transform phase Started
+2025-08-05 21:34:12,Data transformation complete.
+2025-08-05 21:34:12,Data loading complete.
+2025-08-05 21:34:13,Data loaded to Database as table. Running the query
+2025-08-05 21:34:13,Post-2015 vehicles presented.
+2025-08-05 21:34:24,ETL Job Started
+2025-08-05 21:34:24,Extract phase Started
+2025-08-05 21:34:24,Data extraction complete.
+2025-08-05 21:34:24,Transform phase Started
+2025-08-05 21:34:24,Data transformation complete.
+2025-08-05 21:34:24,Data loading complete.
+2025-08-05 21:34:24,Data loaded to Database as table. Running the query
+2025-08-05 21:34:24,Post-2015 vehicles presented.
+2025-08-05 21:55:53,ETL Job Started
+2025-08-05 21:55:53,Extract phase Started
+2025-08-05 21:55:53,Data extraction complete.
+2025-08-05 21:55:53,Transform phase Started
+2025-08-05 21:55:53,Data transformation complete.
+2025-08-05 21:55:53,Data loading complete.
+2025-08-05 21:55:54,Data loaded to Database as table. Running the query
+2025-08-05 21:55:54,Post-2015 vehicles presented.
+2025-08-05 21:56:54,ETL Job Started
+2025-08-05 21:56:54,Extract phase Started
+2025-08-05 21:56:54,Data extraction complete.
+2025-08-05 21:56:54,Transform phase Started
+2025-08-05 21:56:54,Data transformation complete.
+2025-08-05 21:56:54,Data loading complete.
+2025-08-05 21:56:54,Data loaded to Database as table. Running the query
+2025-08-05 21:56:54,Post-2015 vehicles presented.
+2025-08-05 21:58:54,ETL Job Started
+2025-08-05 21:58:54,Extract phase Started
+2025-08-05 22:00:09,ETL Job Started
+2025-08-05 22:00:09,Extract phase Started
+2025-08-05 22:00:09,Data extraction complete.
+2025-08-05 22:00:09,Transform phase Started
+2025-08-05 22:00:09,Data transformation complete.
+2025-08-05 22:00:09,Data loading complete.
+2025-08-05 22:00:09,Data loaded to Database as table. Running the query
+2025-08-05 22:00:09,Post-2015 vehicles presented.
+2025-08-05 22:00:41,ETL Job Started
+2025-08-05 22:00:41,Extract phase Started
+2025-08-05 22:00:41,Data extraction complete.
+2025-08-05 22:00:41,Transform phase Started
+2025-08-05 22:00:41,Data transformation complete.
+2025-08-05 22:00:41,Data loading complete.
+2025-08-05 22:00:42,Data loaded to Database as table. Running the query
+2025-08-05 22:00:42,Post-2015 vehicles presented.
+2025-08-05 22:02:26,ETL Job Started
+2025-08-05 22:02:26,Extract phase Started
+2025-08-05 22:07:45,ETL Job Started
+2025-08-05 22:07:45,Extract phase Started
+2025-08-05 22:08:13,ETL Job Started
+2025-08-05 22:08:13,Extract phase Started
+2025-08-05 22:08:40,ETL Job Started
+2025-08-05 22:08:40,Extract phase Started
+2025-08-05 22:08:46,ETL Job Started
+2025-08-05 22:08:46,Extract phase Started
+2025-08-05 22:09:04,ETL Job Started
+2025-08-05 22:09:04,Extract phase Started
+2025-08-05 22:09:40,ETL Job Started
+2025-08-05 22:09:40,Extract phase Started
+2025-08-05 22:09:40,Data extraction complete.
+2025-08-05 22:09:40,Transform phase Started
+2025-08-05 22:09:40,Data transformation complete.
+2025-08-05 22:09:40,Data loading complete.
+2025-08-05 22:09:40,Data loaded to Database as table. Running the query
+2025-08-05 22:09:40,Post-2015 vehicles presented.
+2025-08-05 22:10:02,ETL Job Started
+2025-08-05 22:10:02,Extract phase Started
+2025-08-05 22:10:02,Data extraction complete.
+2025-08-05 22:10:02,Transform phase Started
+2025-08-05 22:10:02,Data transformation complete.
+2025-08-05 22:10:02,Data loading complete.
+2025-08-05 22:10:02,Data loaded to Database as table. Running the query
+2025-08-05 22:10:02,Post-2015 vehicles presented.
+2025-08-05 22:14:23,ETL Job Started
+2025-08-05 22:14:23,Extract phase Started
+2025-08-05 22:14:23,Data extraction complete.
+2025-08-05 22:14:23,Transform phase Started
+2025-08-05 22:14:23,Data transformation complete.
+2025-08-05 22:14:23,Data loading complete.
+2025-08-05 22:14:24,Data loaded to Database as table. Running the query
+2025-08-05 22:14:24,Post-2015 vehicles presented.
+2025-08-05 22:15:01,ETL Job Started
+2025-08-05 22:15:01,Extract phase Started
+2025-08-05 22:15:01,Data extraction complete.
+2025-08-05 22:15:01,Transform phase Started
+2025-08-05 22:15:01,Data transformation complete.
+2025-08-05 22:15:01,Data loading complete.
+2025-08-05 22:15:01,Data loaded to Database as table. Running the query
+2025-08-05 22:15:01,Post-2015 vehicles presented.
+2025-08-05 22:15:25,ETL Job Started
+2025-08-05 22:15:25,Extract phase Started
+2025-08-05 22:15:25,Data extraction complete.
+2025-08-05 22:15:25,Transform phase Started
+2025-08-05 22:15:25,Data transformation complete.
+2025-08-05 22:15:25,Data loading complete.
+2025-08-05 22:15:25,Data loaded to Database as table. Running the query
+2025-08-05 22:15:25,Post-2015 vehicles presented.
+2025-08-05 22:17:21,ETL Job Started
+2025-08-05 22:17:21,Extract phase Started
+2025-08-05 22:17:21,Data extraction complete.
+2025-08-05 22:17:21,Transform phase Started
+2025-08-05 22:17:21,Data transformation complete.
+2025-08-05 22:17:21,Data loading complete.
+2025-08-05 22:17:21,Data loaded to Database as table. Running the query
+2025-08-05 22:17:21,Post-2015 vehicles presented.
+2025-08-05 22:17:40,ETL Job Started
+2025-08-05 22:17:40,Extract phase Started
+2025-08-05 22:17:40,Data extraction complete.
+2025-08-05 22:17:40,Transform phase Started
+2025-08-05 22:17:40,Data transformation complete.
+2025-08-05 22:17:40,Data loading complete.
+2025-08-05 22:17:41,Data loaded to Database as table. Running the query
+2025-08-05 22:17:41,Post-2015 vehicles presented.
+2025-08-05 22:18:58,ETL Job Started
+2025-08-05 22:18:58,Extract phase Started
+2025-08-05 22:18:58,Data extraction complete.
+2025-08-05 22:18:58,Transform phase Started
+2025-08-05 22:18:58,Data transformation complete.
+2025-08-05 22:18:58,Data loading complete.
+2025-08-05 22:18:59,Data loaded to Database as table. Running the query
+2025-08-05 22:18:59,Post-2015 vehicles presented.
+2025-08-05 22:19:11,ETL Job Started
+2025-08-05 22:19:11,Extract phase Started
+2025-08-05 22:19:11,Data extraction complete.
+2025-08-05 22:19:11,Transform phase Started
+2025-08-05 22:19:11,Data transformation complete.
+2025-08-05 22:19:11,Data loading complete.
+2025-08-05 22:19:12,Data loaded to Database as table. Running the query
+2025-08-05 22:19:12,Post-2015 vehicles presented.
+2025-08-05 22:21:31,ETL Job Started
+2025-08-05 22:21:31,Extract phase Started
+2025-08-05 22:21:31,Data extraction complete.
+2025-08-05 22:21:31,Transform phase Started
+2025-08-05 22:21:31,Data transformation complete.
+2025-08-05 22:21:31,Data loading complete.
+2025-08-05 22:21:31,Data loaded to Database as table. Running the query
+2025-08-05 22:21:31,Post-2015 vehicles presented.
+2025-08-05 22:21:53,ETL Job Started
+2025-08-05 22:21:53,Extract phase Started
+2025-08-05 22:24:05,ETL Job Started
+2025-08-05 22:24:05,Extract phase Started
+2025-08-05 22:24:16,ETL Job Started
+2025-08-05 22:24:16,Extract phase Started
+2025-08-05 22:24:16,Data extraction complete.
+2025-08-05 22:24:16,Transform phase Started
+2025-08-05 22:24:16,Data transformation complete.
+2025-08-05 22:24:16,Data loading complete.
+2025-08-05 22:24:16,Data loaded to Database as table. Running the query
+2025-08-05 22:24:16,Post-2015 vehicles presented.
+2025-08-05 22:24:51,ETL Job Started
+2025-08-05 22:24:51,Extract phase Started
+2025-08-05 22:24:51,Data extraction complete.
+2025-08-05 22:24:51,Transform phase Started
+2025-08-05 22:24:51,Data transformation complete.
+2025-08-05 22:24:51,Data loading complete.
+2025-08-05 22:24:51,Data loaded to Database as table. Running the query
+2025-08-05 22:24:52,Post-2015 vehicles presented.

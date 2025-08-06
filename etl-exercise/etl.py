@@ -1,45 +1,89 @@
 import glob 
 import pandas as pd 
+import glob
 import xml.etree.ElementTree as ET 
+
 from datetime import datetime
 from sqlalchemy import create_engine, text
 
 import warnings
 warnings.filterwarnings('ignore') 
 
-def extract(path):
-    def extract_from_xml(path):
-        dfs = []
-        for i in range(1, 4):
-            file_path = f'{path}{i}.xml'
+class extract:
+    def __init__(self):
+        pass
+        
+    def extract_from_xml(self, path):
+        if path.endswith('.xml'):
+            try: 
+                df = pd.read_xml(path)
+                return df, True
+            except Exception as e: 
+                return None, False
+        else:   
+            dfs = []
+            file_path = glob.glob('/home/steven/Escritorio/ETL/etl-exercise/data/*.xml')
+            if not file_path:
+                raise ValueError('There are no files that finished with .xml')
             try:
-                df = pd.read_xml(file_path)
-                dfs.append(df)
+                for i in file_path:
+                    df = pd.read_xml(i)
+                    dfs.append(df)
+                return pd.concat(dfs), True
             except Exception as e:
-                print(f'{file_path}')
-        return pd.concat(dfs)
+                    return None, False
 
-    def extract_from_json(path):
-        dfs = []
-        for i in range(1, 4):
-            df = pd.read_json(f'{path}{i}.json', lines=True)
-            dfs.append(df)
-        return pd.concat(dfs)
+    def extract_from_json(self, path):
+        if path.endswith('.json'):
+            try:
+                df = pd.read_json(path, lines=True)
+                return df, True
+            except Exception as e:
+                return None, False
+        else:
+            dfs = []
+            file_path = glob.glob('/home/steven/Escritorio/ETL/etl-exercise/data/*.json')
+            if not file_path:
+                raise ValueError('There are no files that finished with .json')
+            try:
+                for i in file_path:
+                    df = pd.read_json(i, lines=True)
+                    dfs.append(df)
+                return pd.concat(dfs), True
+            except Exception as e:
+                return None, False
 
-    def extract_from_csv(path):
-        dfs = []
-        for i in range(1, 4):
-            df = pd.read_csv(f'{path}{i}.csv')
-            dfs.append(df)
-        return pd.concat(dfs)
+    def extract_from_csv(self, path):
+        if path.endswith('.csv'):
+            try:
+                df = pd.read_csv(path)
+                return df, True
+            except Exception as e:
+                return None, False
+        else:
+            dfs = []
+            file_path = glob.glob('/home/steven/Escritorio/ETL/etl-exercise/data/*.csv')
+            if not file_path:
+                raise ValueError('There are no files that finished with .csv')
+            try:
+                for i in file_path:
+                    df = pd.read_csv(i)
+                    dfs.append(df)
+                return pd.concat(dfs), True
+            except Exception as e:
+                return None, False
 
-    df_xml = extract_from_xml(path)
-    df_json = extract_from_json(path)
-    df_csv = extract_from_csv(path)
+    def extract_all_data(self, path):
+        xmlData, xmlOk = self.extract_from_xml(path)
+        csvData, csvOk = self.extract_from_json(path)
+        jsonData, jsonOk = self.extract_from_json(path)
 
-    return [df_csv, df_json, df_xml]
-
-def transform(data): 
+        if not (xmlOk and csvOk and jsonOk):
+            raise ValueError('An error has happened in one or more extractions.')
+        
+        return xmlData, csvData, jsonData
+    
+def transform(data):
     df = pd.concat([data[0], data[1], data[2]])
     df['price'] = round(df['price'], 2)
     return df
