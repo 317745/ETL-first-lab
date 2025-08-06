@@ -14,4 +14,4 @@ def vehicles2015():
             year = vehicle[1]
             price = vehicle[2]
             fuel = vehicle[3]
-            print(f'Vehicle model: {model}, year: {year}, fuel: {fuel} and price: {price}')
+            #print(f'Vehicle model: {model}, year: {year}, fuel: {fuel} and price: {price}')

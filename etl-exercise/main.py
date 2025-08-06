@@ -1,7 +1,12 @@
+'''
+/home/steven/Escritorio/ETL/etl-exercise/main.py
+'''
+
 import sqlite3
 from log import log_progress
 from etl import extract, transform, load_to_csv, load_to_db, get_db_connection
 from db_queries import vehicles2015
+from test_extractors import *
 
 
 def main():
@@ -19,7 +24,7 @@ def main():
 
     # Extract
     data = extract()
-    extracted_data = data.extract_all_data('/home/steven/Escritorio/ETL/etl-exercise/data/used_car_prices')
+    extracted_data = data.extract_all_data('/home/steven/Escritorio/ETL/etl-exercise/data')
     log_progress("Data extraction complete.")
     
     # Log the beginning of the Transformation process 
@@ -39,5 +44,19 @@ def main():
     vehicles2015()
     log_progress('Post-2015 vehicles presented.')
 
+    def run_all_tests():
+        test_valid_csv_files()
+        test_empty_dir()
+        test_malformed_csv()
+        testJsonFile()
+        testJsonMalformed()
+        testJsonNoField()
+        xmlFileTest()
+        xmlNested()
+        xmlMissingData()
+    
+    run_all_tests()
+
 if __name__ == "__main__":
     main()
+    

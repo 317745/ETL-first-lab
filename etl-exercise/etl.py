@@ -19,10 +19,11 @@ class extract:
                 df = pd.read_xml(path)
                 return df, True
             except Exception as e: 
+                print(e)
                 return None, False
         else:   
             dfs = []
-            file_path = glob.glob('/home/steven/Escritorio/ETL/etl-exercise/data/*.xml')
+            file_path = glob.glob(f'{path}/*.xml')
             if not file_path:
                 raise ValueError('There are no files that finished with .xml')
             try:
@@ -42,7 +43,7 @@ class extract:
                 return None, False
         else:
             dfs = []
-            file_path = glob.glob('/home/steven/Escritorio/ETL/etl-exercise/data/*.json')
+            file_path = glob.glob(f'{path}/*.json')
             if not file_path:
                 raise ValueError('There are no files that finished with .json')
             try:
@@ -62,7 +63,7 @@ class extract:
                 return None, False
         else:
             dfs = []
-            file_path = glob.glob('/home/steven/Escritorio/ETL/etl-exercise/data/*.csv')
+            file_path = glob.glob(f'{path}/*.csv')
             if not file_path:
                 raise ValueError('There are no files that finished with .csv')
             try:
@@ -79,7 +80,7 @@ class extract:
         jsonData, jsonOk = self.extract_from_json(path)
 
         if not (xmlOk and csvOk and jsonOk):
-            raise ValueError('An error has happened in one or more extractions.')
+            return None, False
         
         return xmlData, csvData, jsonData
     
